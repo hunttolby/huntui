@@ -1,0 +1,87 @@
+html,
+[data-theme='light'] {
+  background-color: rgba(255, 255, 255, 1);
+  --color-text-primary: rgba(66, 77, 87, 1);
+  --color-text-secondary: rgba(203, 209, 215, 1);
+  --color-text-tertiary: rgba(110, 119, 124, 1);
+  --color-text-accent: rgba(110, 113, 247, 1);
+
+  --color-border-L1: rgba(246, 247, 248, 1);
+  --color-border-L2: rgba(241, 242, 244, 1);
+  --color-border-L3: rgba(229, 232, 235, 1);
+
+  --color-icon-primary: rgba(66, 77, 87, 1);
+  --color-icon-secondary: rgba(185, 194, 202, 1);
+  --color-icon-tertiary: rgba(115, 115, 115, 1);
+  --color-icon-accent: rgba(110, 113, 247, 1);
+  --color-icon-alert: rgba(242, 100, 100, 1);
+
+  --color-bg-L0: rgba(255, 255, 255, 1);
+  --color-bg-L1: rgba(246, 247, 248, 1);
+  --color-bg-L2: rgba(238, 240, 242, 1);
+  --color-bg-L3: rgba(220, 224, 228, 1);
+  --color-bg-accent: rgba(110, 113, 247, 1);
+
+  --color-bg-button-primary: rgba(110, 113, 247, 1);
+  --color-bg-button-primary-hover: rgba(80, 84, 241, 1);
+  --color-bg-button-primary-disabled: rgba(110, 113, 247, 0.75);
+
+  --color-bg-button-secondary: rgba(255, 255, 255, 1);
+  --color-bg-button-secondary-hover: rgba(244, 245, 246, 1);
+  --color-bg-button-secondary-disabled: rgba(238, 240, 242, 1);
+
+  --color-bg-button-tertiary: rgba(255, 255, 255, 1);
+  --color-bg-button-tertiary-hover: rgba(246, 247, 248, 1);
+  --color-bg-button-tertiary-disabled: rgba(255, 255, 255, 1);
+
+  --color-bg-button-alert: rgba(242, 100, 100, 1);
+  --color-bg-button-alert-hover: rgba(236, 81, 81, 1);
+  --color-bg-button-alert-disabled: rgba(200, 70, 70, 0.7);
+
+  --color-bg-scrollbar: rgba(150, 153, 156, 0.2);
+  --color-bg-scrollbar-hover: rgba(150, 153, 156, 0.4);
+}
+
+html,
+[data-theme='dark'] {
+  background-color: rgba(24, 25, 27, 1);
+  --color-text-primary: rgba(204, 204, 204, 1);
+  --color-text-secondary: rgba(66, 70, 76, 1);
+  --color-text-tertiary: rgba(115, 115, 115, 1);
+  --color-text-accent: rgba(110, 113, 247, 1);
+
+  --color-border-L1: rgba(66, 70, 76, 1);
+  --color-border-L2: rgba(35, 37, 42, 1);
+  --color-border-L3: rgba(36, 37, 41, 1);
+
+  --color-icon-primary: rgba(204, 204, 204, 1);
+  --color-icon-secondary: rgba(66, 70, 76, 1);
+  --color-icon-tertiary: rgba(115, 115, 115, 1);
+  --color-icon-accent: rgba(110, 113, 247, 1);
+  --color-icon-alert: rgba(242, 100, 100, 1);
+
+  --color-bg-L0: rgba(24, 25, 27, 1);
+  --color-bg-L1: rgba(35, 37, 42, 1);
+  --color-bg-L2: rgba(66, 70, 76, 1);
+  --color-bg-L3: rgba(115, 115, 115, 1);
+  --color-bg-accent: rgba(110, 113, 247, 1);
+
+  --color-bg-button-primary: rgba(85, 89, 246, 1);
+  --color-bg-button-primary-hover: rgba(73, 77, 223, 1);
+  --color-bg-button-primary-disabled: rgba(187, 189, 251, 1);
+
+  --color-bg-button-secondary: rgba(35, 37, 42, 1);
+  --color-bg-button-secondary-hover: rgba(24, 25, 27, 1);
+  --color-bg-button-secondary-disabled: rgba(66, 70, 76, 1);
+
+  --color-bg-button-tertiary: rgba(110, 113, 247, 1);
+  --color-bg-button-tertiary-hover: rgba(24, 25, 27, 1);
+  --color-bg-button-tertiary-hover: rgba(44, 45, 45, 1);
+
+  --color-bg-button-alert: rgba(242, 100, 100, 1);
+  --color-bg-button-alert-hover: rgba(236, 81, 81, 1);
+  --color-bg-button-alert-disabled: rgba(242, 100, 100, 1);
+
+  --color-bg-scrollbar: rgba(150, 153, 156, 0.2);
+  --color-bg-scrollbar-hover: rgba(150, 153, 156, 0.4);
+}

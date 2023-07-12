@@ -1,0 +1,40 @@
+:root,
+[data-theme='light'] {
+  --shadow-modal: 0px 8px 48px rgba(255, 255, 255, 0.15), 0px 2px 12px rgba(0, 0, 0, 0.1),
+    0px 0px 1px rgba(255, 255, 255, 0.05);
+
+  --shadow-drawer: 0px 12px 64px rgba(0, 0, 0, 0.1), 0px 3px 24px rgba(0, 0, 0, 0.1),
+    0px 0px 2px rgba(0, 0, 0, 0.05);
+
+  --shadow-input-border-error: 0px 0px 0px 1px #fc6969, 0px 0px 0px 3px #fcd9d9;
+  --shadow-input-border-active: 0px 0px 0px 1px #6467f7, 0px 0px 0px 3px #cfd0fc;
+
+  --shadow-button-primary-border-focus: 0px 0px 0px 2px rgba(110, 113, 247, 0.18);
+  
+  --shadow-button-secondary: 0px 1px 4px rgba(0, 0, 0, 0.1), 0px 8px 48px rgba(255, 255, 255, 0.15),
+    inset 0px 0px 2px rgba(0, 0, 0, 0.1);
+  --shadow-button-secondary-border-focus: 0px 0px 0px 1.5px #eef0f2, 0px 1px 4px rgba(0, 0, 0, 0.1),
+    0px 8px 48px rgba(255, 255, 255, 0.15), inset 0px 0px 2px rgba(0, 0, 0, 0.1);
+
+  --shadow-button-tertiary-border-focus: 0px 0px 0px 2px rgba(145, 158, 171, 0.15);
+}
+
+:root,
+[data-theme='dark'] {
+  --shadow-modal: 0px 8px 48px #111111, 0px 2px 12px rgba(0, 0, 0, 0.9),
+    0px 0px 1px rgba(255, 255, 255, 0.5);
+
+  --shadow-drawer: 0px 12px 64px #111111, 0px 3px 24px rgba(0, 0, 0, 0.9),
+    0px 0px 2px rgba(255, 255, 255, 0.5);
+
+  --shadow-input-border-error: 0px 0px 0px 1px #f46d6d, 0px 0px 0px 3px #f79b9b;
+  --shadow-input-border-active: 0px 0px 0px 1px #7679f4, 0px 0px 0px 3px #9799f7;
+
+  --shadow-button-primary-border-focus: 0px 0px 0px 3px rgba(73, 77, 223, 0.2);
+
+  --shadow-button-secondary: 0px 1px 4px rgba(0, 0, 0, 0.1), 0px 8px 48px rgba(255, 255, 255, 0.15),
+    inset 0px 0px 2px rgba(0, 0, 0, 0.1);
+  --shadow-button-secondary-border-focus: 0px 0px 0px 2px rgba(145, 158, 171, 0.35);
+  
+  --shadow-button-tertiary-border-focus: 0px 0px 0px 2px rgba(75, 77, 78, 0.15);
+}
